@@ -41,7 +41,7 @@ class person implements Callable{
                             //itemConsumed++;
                             System.out.format(this.name + ":consumed  %s\n", item);
                             counter++;
-                            Thread.sleep(10);//time to eat a bowl of soup
+                            Thread.sleep(1000);
                         }catch(Exception e){
                             e.printStackTrace();
                         }
